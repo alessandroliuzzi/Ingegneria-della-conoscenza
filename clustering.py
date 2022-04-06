@@ -52,12 +52,7 @@ clusters = kmeans.labels_
 
 def purity_score(y_true, y_pred):
 
-    # compute contingency matrix (also called confusion matrix)
-
     contingency_matrix = metrics.cluster.contingency_matrix(y_true, y_pred)
-
-    # return purityreturn np.sum(np.amax(contingency_matrix, axis=0)) / np.sum(contingency_matrix)
-
     return np.sum(np.amax(contingency_matrix, axis=0)) / np.sum(contingency_matrix)
 
 metrics.cluster.contingency_matrix(Y, clusters)
