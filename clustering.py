@@ -1,7 +1,5 @@
 
 from sklearn.cluster import KMeans
-
-
 import numpy as np
 from sklearn import metrics
 import pandas as pd
