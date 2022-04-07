@@ -1,8 +1,7 @@
-from os import path
-from sys import argv
+
 from sklearn.cluster import KMeans
-from matplotlib import pyplot as plt
-import seaborn as sns
+
+
 import numpy as np
 from sklearn import metrics
 import pandas as pd
